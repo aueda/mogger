@@ -11,12 +11,12 @@
  * @version 0.5.0
  */
 
-var meld                = require('meld');
-var _                   = require('lodash');
-var traceAspect         = require('./trace-aspect');
-var defaultConfig       = require('./default-config');
-var interceptorsHelpers = require('./interceptors-helpers');
-var Reporter            = require('./reporter');
+var meld                = require('meld'),
+    _                   = require('lodash'),
+    traceAspect         = require('./trace-aspect'),
+    defaultConfig       = require('./default-config'),
+    interceptorsHelpers = require('./interceptors-helpers'),
+    Reporter            = require('./reporter');
 
 ////////////////////
 // Mogger DEFINITION
